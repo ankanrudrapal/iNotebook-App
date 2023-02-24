@@ -1,0 +1,23 @@
+# Open app folder -> right click -> git bash 
+
+[(incase not available)
+*open git bash from windows -> cd "copy path of folder"
+]
+
+# git config --global user.name <name>
+
+# git config --global user.email <email>
+
+# touch .gitignore
+
+# git init
+
+# git add .
+
+# git commit -m "Initial commit"
+ 
+# git status
+
+# git remote add origin <SSH-link>
+
+# git push origin master
