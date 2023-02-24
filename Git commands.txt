@@ -1,3 +1,6 @@
+[ctrl+insert = copy
+ shift+insert = paste]
+
 # Open app folder -> right click -> git bash 
 
 [(incase not available)
@@ -5,10 +8,14 @@
 ]
 
 # git config --global user.name <name>
+[(change to full name)
+*git config --replace-all user.name <"full name">
+] = git config user.name [to see status]
 
-# git config --global user.email <email>
+# git config --global user.email <email> 
+= git config --global user.email [to see status]
 
-# touch .gitignore
+# touch .gitignore [if gitignore is ungitavailavle]
 
 # git init
 
@@ -16,8 +23,18 @@
 
 # git commit -m "Initial commit"
  
-# git status
+# git status [just to see]
 
 # git remote add origin <SSH-link>
+
+# git push origin master
+
+<-- After push add new items -->
+
+# git status [just to see]
+
+# git add .
+
+# git commit -m "Added <item_name>"
 
 # git push origin master
