@@ -27,7 +27,7 @@
 
 # git remote add origin <SSH-link>
 
-# git push origin master
+# git push origin (branch_name)
 
 <-- After push add new items -->
 
@@ -37,4 +37,4 @@
 
 # git commit -m "Added <item_name>"
 
-# git push origin master
+# git push origin (branch_name)
